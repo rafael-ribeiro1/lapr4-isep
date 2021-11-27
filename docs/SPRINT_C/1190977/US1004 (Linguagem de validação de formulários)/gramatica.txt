@@ -1,0 +1,27 @@
+<start>: form { <form> }
+<form>: <form><instrucao_form> ; | <instrucao_form> ;
+<instrucao_form>: <cond_verificacao> -> <validacoes>
+<cond_verificacao>: <cond_verificacao> AND <cond_verificacao>
+		| <cond_verificacao> OR <cond_verificacao>
+		| <operacao_bool>
+<validacoes>: <validacoes><validacao> | <validacao>
+<validacao>: [<operacoes_logicas>]
+<operacoes_logicas>: <operacoes_logicas> AND <operacoes_logicas>
+		| <operacoes_logicas> OR <operacoes_logicas>
+		| <operacao_bool>
+		| <funcao_bool>
+		| <instrucao_form>
+<funcao_bool>: isEmpty(<atributo>) | isNotEmpty(<atributo>) | match(<atributo>, <regex>)
+<operacao_bool>: <operacao_bool> <operador_bool> <operacao_bool>
+        | <inteiro>
+        | <string>
+<inteiro>: (<inteiro>)
+		| <inteiro> <mul_div> <inteiro>
+		| <inteiro> <soma_sub> <inteiro>
+		| length(<atributo>)
+		| <atributo>
+		| <num>
+<num>: -?[0-9]+(.[0-9]+)?
+<operador_bool>: = | <> | < | > | <= | >=
+<string>: '"'(~[\r\n"] | '""')*'"'
+<atributo>: [A-Za-z][A-Za-z0-9]*

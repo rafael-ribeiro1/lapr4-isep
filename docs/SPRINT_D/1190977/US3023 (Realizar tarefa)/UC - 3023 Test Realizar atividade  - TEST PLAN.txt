@@ -1,0 +1,15 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Realizar atividade
+	_______________________________
+
+	1. Fazer o login como colaborador
+	2. Escolher a opção  Activity / Realize Pending Activity
+	3. Escolher entre atividade de aprovação ou realização
+	4. Escolher atividade consoante o tipo pretendido
+	5. Ver detalhes do respetivo pedido
+	6. Preencher os campos do formulário da atividade
+	7. Verificar que a atividade foi realizada

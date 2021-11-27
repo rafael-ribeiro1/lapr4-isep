@@ -1,0 +1,13 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Especificar novo colaborador
+	_______________________________
+
+	1. Fazer o login como gsh(Gestor de serviços Help Desk)/Password1
+	2. Escolher a opção  Criticidade  >  Specify new Criticidade
+	3. Introduz dados validos relativos para criticidade
+	4. Confirmar a opcao para registar a Criticidade.
+	5. Confirmar a atualização efetuada registando um serviço com a nova criticidade.

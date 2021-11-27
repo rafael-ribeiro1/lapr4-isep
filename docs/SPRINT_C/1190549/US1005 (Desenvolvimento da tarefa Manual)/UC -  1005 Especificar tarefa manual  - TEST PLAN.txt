@@ -1,0 +1,15 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Especificar tarefa manual
+	_______________________________
+
+	1. Fazer o login como gsh(Gestor de servicoes help desk)/Password1
+	2. Escolher a opção  Catalogo  >  Register Service
+	3. Seleciona a opcao para especificar fluxo e selecionar para registar uma atividade manual
+	4. Acaba a especificacao da atividade manual
+	5. Fazer o login como Colaborador
+	6. Escolher a opcao Atividade > Reivindicar Atividade
+	7. Realiza a atividade que foi especificada

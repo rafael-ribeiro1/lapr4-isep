@@ -1,0 +1,13 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Associar Criticidade a catalogo
+	_______________________________
+
+	1. Fazer o login como gsh(Gestor de servicoes help desk)/Password1
+	2. Escolher a opção  Catalogo  >  Associar Criticidade de Catalogo
+	3. Seleciona o catalogo e as criticidade desejadas.
+	4. Confirmar a opcao para associar a criticidade
+	5. Confirmar a atualização vendo as informacoes de um catalogo e pesquisando acerca da criticidade.

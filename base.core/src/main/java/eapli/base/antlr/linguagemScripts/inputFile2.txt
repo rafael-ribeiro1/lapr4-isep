@@ -1,0 +1,19 @@
+SCRIPT
+{
+$valor1 = (13+1)/2;
+sendEmail("1190549@isep.ipp.pt" , "read", "preco {{$valor1}} teste");
+$valor2=readFile("sample\test.xml","1190549");
+    if(6>$valor1 AND $valor2>7){
+         $valor3=5+1;
+         $vindoFuncao = readFile("sample\test.xml","1181055");
+         if($valor1==$valor2){
+          $valor3 = 10;
+         }
+    }
+
+if(($valor3)==8){
+    $valor4=($valor2)#($valor4)/ 3.143;
+    sendEmail("1190975@isep.ipp.pt" , "Preco da fruta", "preco {{$valor4}} ");
+ }
+
+}

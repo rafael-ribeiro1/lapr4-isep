@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>eHelpdesk - Dashboard</title>
+    <script src="script-ajax.js"></script>
+</head>
+<body onload="refreshInfo()">
+    <div class="header">
+        <h1>eHelpdesk <span class="sub">Dashboard</span></h1>
+    </div>
+    <div id="error"><span>Error. Trying again...</span></div>
+    <div class="container">
+        <div id="content">
+            <!--<span id="loading">Please wait, loading all the information...</span>-->
+            <div class="main-info">
+                <h2>Tasks information</h2>
+                <span>Collaborator:<br><span class="bold">Nome curto (1)</span></span>
+            </div>
+            <div class="infos">
+                <div class="info">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">pending tasks</span>
+                </div>
+                <div class="info">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">out of time</span>
+                </div>
+                <div class="info">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">in 1 hour</span>
+                </div>
+            </div>
+            <h3>Distribution by urgency</h3>
+            <div class="infos">
+                <div class="info reduced">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">REDUCED</span>
+                </div>
+                <div class="info moderate">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">MODERATE</span>
+                </div>
+                <div class="info urgent">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">URGENT</span>
+                </div>
+            </div>
+            <h3>Distribution by criticality</h3>
+            <div class="infos">
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+            </div>
+            <div class="infos">
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+                <div class="sinfo">
+                    <span class="info-val">3</span><br>
+                    <span class="info-desc">Etiqueta 1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

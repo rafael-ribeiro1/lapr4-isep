@@ -1,0 +1,58 @@
+	
+
+	TEST PLAN
+
+* Caso #1 - Adição de Colaboradores a uma Equipa selecionando Tipo de Equipa e Equipa desse tipo
+* Caso #2 - Remoção de Colaboradores a uma Equipa selecionando Tipo de Equipa e Equipa desse tipo
+* Caso #3 - Adição de Colaboradores a uma Equipa inserindo o código único da Equipa
+* Caso #4 - Remoção de Colaboradores a uma Equipa inserindo o código único da Equipa
+
+	_______________________________
+	CASO #1: Gerir Colaboradores Equipa
+	_______________________________
+
+	1. Fazer o login como hr (Responsável dos Recursos Humanos) utilizando como password Password1
+	2. Selecionar a opção  Team  >  Manage Team Members
+	3. Selecionar a opção Search Team by Team Type
+	4. Selecionar o tipo de equipa pretendido
+	5. Selecionar a equipa pretendida
+	6. Selecionar Add Collaborator
+    7. Selecionar o colaborador a adicionar
+    8. Confirmar alterações
+
+	_______________________________
+	CASO #2: Gerir Colaboradores Equipa
+	_______________________________
+
+	1. Fazer o login como hr (Responsável dos Recursos Humanos) utilizando como password Password1
+	2. Selecionar a opção  Team  >  Manage Team Members
+	3. Selecionar a opção Search Team by Team Type
+	4. Selecionar o tipo de equipa pretendido
+	5. Selecionar a equipa pretendida
+	6. Selecionar Remove Collaborator
+    7. Selecionar o colaborador a remover
+    8. Confirmar alterações
+
+	_______________________________
+	CASO #3: Gerir Colaboradores Equipa
+	_______________________________
+
+	1. Fazer o login como hr (Responsável dos Recursos Humanos) utilizando como password Password1
+	2. Selecionar a opção  Team  >  Manage Team Members
+	3. Selecionar a opção Search Team by Unique Code
+	4. Introduzir um código único válido (alfanumérico com um máximo de 15 caracteres registado na Base de Dados)
+	5. Selecionar Add Collaborator
+    6. Selecionar o colaborador a adicionar
+    7. Confirmar alterações
+
+	_______________________________
+	CASO #4: Gerir Colaboradores Equipa
+	_______________________________
+
+    1. Fazer o login como hr (Responsável dos Recursos Humanos) utilizando como password Password1
+    2. Selecionar a opção  Team  >  Manage Team Members
+    3. Selecionar a opção Search Team by Unique Code
+    4. Introduzir um código único válido (alfanumérico com um máximo de 15 caracteres registado na Base de Dados)
+    5. Selecionar Remove Collaborator
+    6. Selecionar o colaborador a remover
+    7. Confirmar alterações

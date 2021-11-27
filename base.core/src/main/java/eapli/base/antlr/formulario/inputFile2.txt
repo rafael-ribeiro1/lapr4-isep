@@ -1,0 +1,6 @@
+form {
+    CampoA = 123 -> [(5*4)+2 > 5+2] [CampoC > 3 -> [5 > 3]][isNotEmpty(CampoB)];
+    str(CampoB) <> "abc" -> [isEmpty(CampoC)];
+    str(CampoB) = "abc" -> [match(CampoA, "[0-9]+") OR isEmpty(CampoC)];
+    CampoA > 100 -> [length(CampoB) = 3 AND isEmpty(CampoC)];
+}

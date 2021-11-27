@@ -1,0 +1,54 @@
+	
+
+	TEST PLAN
+
+    * Caso #1 - Reivindicação de Tarefas usando como critério de filtragem Criticidade ou Urgência
+    * Caso #2 - Reivindicação de Tarefas usando como critério de filtragem a data limite
+    * Caso #3 - Reivindicação de Tarefas solicitando ordenação dos resultados segundo um critério
+    * Caso #4 - Reivindicação de Tarefas sem recorrer a ordenação ou filtragem de dados
+
+
+	______________________________________
+	CASO #1: Reivindicar Tarefas Pendentes
+	______________________________________
+
+	1. Fazer o login como colaborador (ex. eduardoCouto) utilizando a password armazenada na tabela SystemUser da Base de Dados
+	2. Selecionar a opção  Activity  >  Claim Pending Activity
+    3. Selecionar um critério de filtragem (Criticidade ou Urgência)
+    4. Selecionar uma das opções
+    5. Selecionar uma das atividades apresentadas
+	6. Confirmar a reivindicação da atividade
+
+	______________________________________
+    CASO #2: Reivindicar Tarefas Pendentes
+    ______________________________________
+
+    1. Fazer o login como colaborador (ex. eduardoCouto) utilizando a password armazenada na tabela SystemUser da Base de Dados
+    2. Selecionar a opção  Activity  >  Claim Pending Activity
+    3. Selecionar um critério de filtragem (Intervalo de datas limite)
+    4. Inserir a data e hora da primeira data
+    5. Inserir a data e hora da segunda data
+    6. Selecionar uma das atividades apresentadas
+    7. Confirmar a reivindicação da atividade
+
+    ______________________________________
+	CASO #3: Reivindicar Tarefas Pendentes
+	______________________________________
+
+	1. Fazer o login como colaborador (ex. eduardoCouto) utilizando a password armazenada na tabela SystemUser da Base de Dados
+	2. Selecionar a opção  Activity  >  Claim Pending Activity
+    3. Selecionar um critério de ordenação (Criticidade, Data Limite, Urgência ou Prioridade)
+    4. Selecionar a ordem (ascendente/descendente)
+    5. Selecionar uma das tarefas apresentadas
+	6. Confirmar a reivindicação da atividade
+
+	______________________________________
+    CASO #4: Reivindicar Tarefas Pendentes
+    ______________________________________
+
+    1. Fazer o login como colaborador (ex. eduardoCouto) utilizando a password armazenada na tabela SystemUser da Base de Dados
+    2. Selecionar a opção  Activity  >  Claim Pending Activity
+    3. Não selecionar qualquer critério de filtragem (opção 0.No Selection)
+    4. Não selecionar qualquer critério de ordenação (opção 0.No Selection)
+    5. Selecionar uma das atividades apresentadas
+    6. Confirmar a reivindicação da atividade

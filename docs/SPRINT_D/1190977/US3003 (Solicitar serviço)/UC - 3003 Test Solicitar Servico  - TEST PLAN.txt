@@ -1,0 +1,15 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Solicitar serviço (Pedido)
+	_______________________________
+
+	1. Fazer o login como colaborador
+	2. Escolher a opção  Request / Request service
+	3. Selecionar serviço a ser solicitado
+	4. Definir urgência e data limite pretendida
+	5. Selecionar ficheiros anexos (opcional)
+	6. Preencher campos do formulário
+	7. Verificar que o serviço foi solicitado

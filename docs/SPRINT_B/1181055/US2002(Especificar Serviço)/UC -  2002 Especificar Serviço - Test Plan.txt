@@ -1,0 +1,21 @@
+	
+
+	TEST PLAN
+
+    * Caso #1 - Criação Serviço em modo Draft
+
+	______________________________________
+	CASO #1: Especificar Serviço
+	______________________________________
+
+	1. Fazer o login como Gestor de Serviços HelpDesk utilizando as credenciais gsh (utilizador) e Password1 (password)
+	2. Selecionar a opção  Services  >  Create New Service
+    3. Selecionar Title
+    4. Inserir um título válido (máximo 50 caracteres)
+	5. Selecionar Service Code
+	6. Inserir um código válido
+	7. Selecionar Icon
+	8. Selecionar a imagem pretendida
+	9. Selecionar Brief Description
+	10. Inserir uma descrição breve válida (máximo 40 caracteres)
+	42. Selecionar Save Changes and Exit

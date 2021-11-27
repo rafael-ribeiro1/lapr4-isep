@@ -1,0 +1,14 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Reivindicar e Verificar Tarefa Pendente
+	_______________________________
+
+	1. Fazer o login como colaborador
+	2. Escolher a opção  Activity / Reivindicar Activity
+	3. Selecionar alguma atividade para reivindicar
+	4. Escolher a opcao Activity / Ver atividades Pendentes
+	5. Selecionar o filtro / ordenacao pretendida.
+	6. Verificar se atividade que foi reivindicada se encontra presente.

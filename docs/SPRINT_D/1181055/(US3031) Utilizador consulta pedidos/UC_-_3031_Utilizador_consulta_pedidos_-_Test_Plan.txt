@@ -1,0 +1,31 @@
+	
+
+	TEST PLAN
+
+    * Caso #1 - Consulta de um único pedido da lista
+    * Caso #2 - Consulta de 2 pedidos da lista
+
+	______________________________________
+	CASO #1: Utilizador consulta Pedidos
+	______________________________________
+
+	1. Fazer o login como colaborador (ex. eduardoCouto) utilizando a password armazenada na tabela SystemUser da Base de Dados
+	2. Selecionar a opção  Request  >  Consult Tickets
+    3. Selecionar um Pedido da lista
+    4. Visualizar detalhes do Pedido
+    5. Pressionar enter
+	6. Selecionar "0.No Selection" ao visualizar novamente a lista em 3
+
+	______________________________________
+	CASO #2: Utilizador consulta Pedidos
+	______________________________________
+
+	1. Fazer o login como colaborador (ex. eduardoCouto) utilizando a password armazenada na tabela SystemUser da Base de Dados
+	2. Selecionar a opção  Request  >  Consult Tickets
+    3. Selecionar um Pedido da lista
+    4. Visualizar detalhes do Pedido
+    5. Pressionar enter
+    6. Selecionar um Pedido da lista
+    7. Visualizar detalhes do Pedido
+    8. Pressionar enter
+	9. Selecionar 0.No Selection ao visualizar novamente a lista em 3 / 6

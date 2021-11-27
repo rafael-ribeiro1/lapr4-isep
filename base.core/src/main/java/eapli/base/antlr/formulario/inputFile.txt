@@ -1,0 +1,4 @@
+form {
+CampoA <> 90 -> [str(CampoA) > (5*4) AND isEmpty(CampoC)];
+CampoA < 100 -> [length(CampoB) > 9+5 AND isEmpty(CampoC)][str(CampoA) > (5*4) AND isEmpty(CampoC)];
+}

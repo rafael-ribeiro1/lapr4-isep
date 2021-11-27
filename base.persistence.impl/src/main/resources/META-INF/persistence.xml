@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
+  <persistence-unit name="eapli.base">
+      <!--
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    -->
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <class>eapli.framework.infrastructure.authz.domain.model.SystemUser</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.Role</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleSet</class>
+    <class>eapli.framework.infrastructure.authz.domain.model.RoleAssignment</class>
+    <class>eapli.base.clientusermanagement.domain.ClientUser</class>
+    <class>eapli.base.clientusermanagement.domain.SignupRequest</class>
+    <class>eapli.base.teammanagement.domain.Equipa</class>
+	<class>eapli.base.colaboratormanagement.domain.Colaborador</class>
+    <class>eapli.base.catalogmanagement.domain.Catalog</class>
+    <class>eapli.base.teammanagement.domain.TipoEquipa</class>
+    <class>eapli.base.servicemanagement.domain.Service</class>
+    <class>eapli.base.servicemanagement.domain.ServiceDraft</class>
+    <class>eapli.base.servicemanagement.domain.form.Form</class>
+    <class>eapli.base.servicemanagement.domain.form.FormDraft</class>
+    <class>eapli.base.servicemanagement.domain.form.Attribute</class>
+    <class>eapli.base.colaboratormanagement.domain.Funcao</class>
+    <class>eapli.base.criticidademanagement.domain.Criticidade</class>
+    <class>eapli.base.activity.domain.Atividade</class>
+    <class>eapli.base.activity.domain.AtividadeRealizacao</class>
+    <class>eapli.base.activity.domain.AtividadeAprovacao</class>
+    <class>eapli.base.activity.domain.RealizacaoManual</class>
+    <class>eapli.base.activity.domain.RealizacaoAutomatica</class>
+    <class>eapli.base.servicemanagement.domain.FluxoAtividadesServico</class>
+    <class>eapli.base.pedidoservico.domain.FluxoAtividadesPedido</class>
+    <class>eapli.base.pedidoservico.domain.FormResponses</class>
+    <class>eapli.base.pedidoservico.domain.Pedido</class>
+
+    <properties>
+<!--      <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/lapr4di2"/>-->
+      <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://10.8.0.83:9199/~/lapr4di2"/>
+
+                    <!--<property name="javax.persistence.jdbc.url" value="jdbc:h2:..\db\base;MV_STORE=FALSE;AUTO_SERVER=true;"/>-->
+
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.password" value="eapli"/>
+      <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <!-- <property name="eclipselink.logging.level" value="FINE"/> -->
+      <!-- <property name = "hibernate.show_sql" value = "true" /> -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+    </properties>
+  </persistence-unit>
+</persistence>

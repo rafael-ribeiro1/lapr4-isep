@@ -1,0 +1,19 @@
+SCRIPT
+{
+$valor1 = (13+1)/2
+$valor2=readFile(sample\products.xml,product,XYJ456,price);
+    if(10>$valor1 AND $valor2>0){
+         $valor3=5+1;
+         $vindoFuncao = readFile("sample\products.xml","product","XYJ456","price");
+         sendEmail("1190549@isep.ipp.pt" , "depois {{$vindoFuncao}}", "preco {{$vindoFuncao}} euros");
+         if($valor1==$valor2){
+          $valor3 = 10;
+         }
+    }
+
+if(($valor3)==8){
+    $valor4=($valor2)#($valor4)/ 3.143;
+    sendEmail("1190549@isep.ipp.pt" , "depois {{$vindoFuncao}}", "preco {{$vindoFuncao}} euros");
+ }
+
+}

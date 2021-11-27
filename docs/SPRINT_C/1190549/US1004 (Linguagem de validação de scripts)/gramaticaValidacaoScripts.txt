@@ -1,0 +1,65 @@
+<start>: script <chaveta_entrada> <script> <chaveta_fechar>
+<script>: <script> <instrucao_script> | <instrucao_script>
+<instrucao_script>:<instrucoes_condicao> | <funcao> | <atribuir_variavel>
+<instrucoes_condicao>: <if> [<cond_verificacao>] <atribuicao> <instrucao_script>
+<cond_verificacao>: <cond_verificacao> <and> <cond_verificacao>
+                  | <cond_verificacao> <or> <cond_verificacao>
+                  | <operacao_bool>
+
+<operacao_bool>: <objeto> <operador_comparar> <objeto>
+<objeto> : <variavel> | <inteiro>
+
+<funcao>: sendEmail( <email> , <string> , <string> )
+        | readFile ( <nome_ficheiro> , <string> )
+
+<string>: "<content>"
+
+<content>: <content> <word>
+        | <content> <output>
+        | <output>
+        | <word>
+        | <content> <num>
+        | <num>
+
+<output>: {{$<word>}}
+
+<inteiro>: (<inteiro>)
+		| <inteiro> <mul_div> <inteiro>
+		| <inteiro> <soma_sub> <inteiro>
+		| <percentagem_num>
+		| <num>
+
+<num>: -?[0-9]+(.[0-9]+)?
+
+<percentagem_num>: <percentagem> <inteiro>
+
+<nome_ficheiro>: "<path><xml>"
+
+<path>: <path>/<word>
+       | <word>
+
+<atribuir_variavel>: <variavel>
+
+<variavel>: <word> = <inteiro>
+        | <word> = <funcao>
+        | <word>
+
+<num>:-?[0-9]+(.[0-9]+)?
+<percentagem>: %
+<soma_sub>: + | -
+<mul_div>: * | <barra> | #
+<barra>: /
+<and>: AND
+<or>: OR
+<igual>: =
+<email>: [a-zA-Z0-9._%+-]+'@'[a-zA-Z0-9.-]+'.'[a-zA-Z]+;
+<operador_comparar>: = | <> | < | > | <= | >=
+<if>: if
+<word>: [A-Za-z0-9]+
+<virgula>: ,
+<atribuicao>: ->
+<dollar>: $
+<aspas:> "
+<chaveta_entrada>: {
+<chaveta_fechar>: }
+<xml>: .xml

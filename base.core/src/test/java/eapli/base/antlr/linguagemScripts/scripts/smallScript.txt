@@ -1,0 +1,5 @@
+SCRIPT
+        {
+        $valor1 = (13+1)/2;
+        sendEmail("1190549@isep.ipp.pt" , "read", "preco {{$valor1}} teste");
+        }

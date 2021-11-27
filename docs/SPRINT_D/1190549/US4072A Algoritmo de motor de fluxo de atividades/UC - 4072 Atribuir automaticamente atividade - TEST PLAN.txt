@@ -1,0 +1,14 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Atribuir colaborador a atividade
+	_______________________________
+
+	1. Fazer o login como colaborador
+	2. Escolher a opção  Service / Request Service
+	3. Introduz dados validos relativos a solicitacao de um pedido.
+	4. Finalizar a solicitacao de um pedido.
+	5. Fazer login como o colaborador atribuido automaticamente ao pedido.
+	6. Realizar a atividade .

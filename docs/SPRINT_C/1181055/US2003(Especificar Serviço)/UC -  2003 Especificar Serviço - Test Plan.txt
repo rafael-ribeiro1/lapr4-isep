@@ -1,0 +1,57 @@
+	
+
+	TEST PLAN
+
+    * Caso #1 - Criação Serviço com Criticidade diferente do Catálogo, com Feedback Form e cujo fluxo de
+                atividades contém uma atividade de resolução automática
+
+	______________________________________
+	CASO #1: Especificar Serviço
+	______________________________________
+
+	1. Fazer o login como Gestor de Serviços HelpDesk utilizando as credenciais gsh (utilizador) e Password1 (password)
+	2. Selecionar a opção  Services  >  Create New Service
+    3. Selecionar Title
+    4. Inserir um título válido (máximo 50 caracteres)
+	5. Selecionar Service Code
+	6. Inserir um código válido
+	7. Selecionar Icon
+	8. Selecionar a imagem pretendida
+	9. Selecionar Brief Description
+	10. Inserir uma descrição breve válida (máximo 40 caracteres)
+	11. Selecionar Complete Description
+	12. Inserir uma descrição completa válida (máximo 50 caracteres)
+	13. Selecionar Keywords
+	14. Selecionar Add keyword
+	15. Inserir keyword válida
+	16. Selecionar 0. No Selection para abandonar Menu Keywords
+	17. Selecionar Catalog
+	18. Selecionar um dos Catálogos apresentados
+	19. Inserir "n" quando surgir "Do you wish to retain the same criticidade of the catalog(y/n) ?"
+	20. Selecionar criticidade pretendida
+	21. Selecionar Service Forms
+	22. Selecionar Fill Out Form
+	23. Selecionar Change Form Name
+	24. Selecionar Change Attributes
+	25. Selecionar Add Form Attribute
+	26. Inserir nome do atributo
+	27. Inserir descrição do atributo
+	28. Selecionar o tipo do atributo
+	29. Inserir label do atributo
+	30. Inserir expressão regular do atributo
+	31. Selecionar 0. No selection para abandonar o menu de atributos do formulário
+	32. Selecionar Feedback Form no menu de formulário
+	33. Selecionar Add Feedback Form
+	34. Selecionar 0. No selection para abandonar o menu de formulário
+	35. Selecionar Activity Flow
+	36. Selecionar Realization Activity
+	37. Selecionar Automatic Realization
+	38. Inserir o script pretendido
+	39. Confirmar registo do fluxo de atividades
+	40. Selecionar Show Service Information
+	41. Pressionar enter
+	42. Selecionar Save Changes and Exit
+
+    NOTA: Neste caso de uso também é possível proceder à finalização de um draft de serviço, contudo, a criação do
+    serviço já engloba todas as possíveis modificações a ser realizadas num draft, pelo que por simplificação, apenas
+    se procedeu à apresentação de um plano de testes para o cenário mais complexo.

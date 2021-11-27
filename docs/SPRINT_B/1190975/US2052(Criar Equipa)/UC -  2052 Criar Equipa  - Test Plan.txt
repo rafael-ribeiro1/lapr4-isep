@@ -1,0 +1,16 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Criar Equipa
+	_______________________________
+
+	1. Fazer o login como hr (Responsável dos Recursos Humanos) utilizando como password Password1
+	2. Escolher a opção  Team  >  Register Team
+	3. Introduzir um código único válido (alfanumérico com um máximo de 15 caracteres)
+	4. Introduzir Acrónimo válido (máximo de 10 caracteres)
+	5. Introduzir Designação válido (não deve ser vazio)
+	6. Selecionar 1 ou mais Colaboradores Responsáveis
+	7. Selecionar 1 ou mais Colaboradores
+	8. Confirmar o registo da equipa

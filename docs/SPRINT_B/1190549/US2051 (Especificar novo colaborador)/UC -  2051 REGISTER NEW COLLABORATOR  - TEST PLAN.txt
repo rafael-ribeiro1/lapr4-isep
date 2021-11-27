@@ -1,0 +1,13 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO #1: Especificar novo colaborador
+	_______________________________
+
+	1. Fazer o login como hr(human resources user)/Password1
+	2. Escolher a opção  Collaborator  >  Specify new Collaborator
+	3. Introduz dados validos relativos a uma pessoa
+	4. Confirmar a opcao para registar o Colaborador.
+	5. Confirmar a atualização efetuada usando o email usando no registo e a password passada pelo email.
